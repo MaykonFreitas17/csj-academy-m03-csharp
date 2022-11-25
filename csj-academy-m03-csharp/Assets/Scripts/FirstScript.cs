@@ -6,15 +6,18 @@ using UnityEngine;
 // Classe Principal do Script Criado - A classe que herda da classe da Unity MonoBehaviour
 public class FirstScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	// Exemplo de variavel/atributo - pois está em um contexto de classe
+	public float speed;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	// A função Start é chamada uma vez ao inicio do script/jogo
+	void Start()
+	{
+	
+	}
+
+	// A função Update é chamada a cada frame de jogo (exemplo: chamada 60 vezes por segundo)
+	void Update()
+	{
+	
+	}
 }
